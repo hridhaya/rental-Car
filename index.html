@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CAR RENTAL</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header class="header">
+      <div class="navBar">
+        <div class="header-social">
+          <a href="#"></a>
+          <a href="#"><img src="/img/ig.jpg" /></a>
+          <a href="#"><img src="/img/x.jpg" /></a>
+          <a href="#"><img src="/img/linkdin.jpg" /></a>
+        </div>
+        <div class="logo">
+          <img src="/img/logo.png" />
+        </div>
+        <div class="main-bar">
+          <a href="#">About</a>
+          <a href="#">Offer</a>
+          <a href="#">Corporate</a>
+          <a href="#">Personal</a>
+          <a href="#">Locations</a>
+          <a href="#">Contact Us</a>
+          <a href="#"><img src="/img/bell.jpg" /></a>
+          <a href=""><img src="/img/prof.png" /></a>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="main-body">
+      <!-- Quick Book Starts -->
+      <div class="quick-book">
+        <div class="quick-book-content">
+          <ul>
+            <li><a href="#" id="qb-link1">Same as Pick-Up</a></li>
+            <li><a href="#" id="qb-link2">Different Drop-Off</a></li>
+            <li><a href="#" id="qb-link3">Select vehicle type</a></li>
+          </ul>
+          <div class="qb-div2">
+            <button id="btn-location">Al Quoz</button>
+            <button id="btn-date-start">30/10/2023 09:00 AM</button>
+            <button id="btn-date-end">29/11/2023 09:00 AM</button>
+            <button id="btn-search">
+              <span class="material-symbols-outlined" style="color: #e21e26">
+                search
+              </span>
+            </button>
+            <img src="img/Line.png" alt="" />
+            <button id="btn-quick-book">Quick Book</button>
+          </div>
+          <div class="qb-download">
+            <p>
+              <span
+                >Download our App for easy accessibility anytime,
+                anywhere!</span
+              >
+            </p>
+            <button class="app-store">
+              <img src="img/appleStore.png" alt="" /><span
+                >Apple Store</span
+              ></button
+            ><button class="google-play">
+              <img src="img/gPlay.png" alt="" /><span>Google Play</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Quick Book Ends -->
+      <!-- Summer Promotions Starts -->
+      <div class="promotion-div">
+        <p>
+          <span
+            >Recieve guarnteed <button id="gift-voucher">GIFT VOUCHER</button
+            ><br />on a monthly hire or lease</span
+          >
+        </p>
+      </div>
+      <!-- Summer Promotions Ends -->
+
+      <!-- Most popular Car Starts -->
+      <div class="popular-cars">
+        <h1>Most popular cars</h1>
+        <div class="cars-scroll">
+          <div class="cars">
+            <img src="img/blue-car.png" alt="" />
+            <div class="car-details">
+              <h2>Mitsubishi Eclipse</h2>
+              <p>
+                Eclipse Cross is a fusion of sharp coupe looks and dynamic SUV
+                mobility with signature Mitsubishi styling, technology and
+                driving confidence.
+              </p>
+              <ul>
+                <li>6 People</li>
+                <li>Automatic</li>
+                <li>5 Doors</li>
+                <li>AC</li>
+              </ul>
+              <br />
+              <b>AED 2700/ Monthly</b>
+              <button><span>Buy Now</span></button>
+            </div>
+          </div>
+          <div class="cars">
+            <img src="img/red-car.png" alt="" />
+            <div class="car-details">
+              <h2>Jac J7</h2>
+              <p>
+                S3 Plus has been rated Five-Star in C-NCAP including front
+                impact, side impact, frontal side impact & Whipping test.
+              </p>
+              <ul>
+                <li>6 People</li>
+                <li>Automatic</li>
+                <li>5 Doors</li>
+                <li>AC</li>
+              </ul>
+              <br />
+              <b>AED 2700/ Monthly</b>
+              <button><span>Buy Now</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Most popular Car Ends -->
+
+      <div class="subscribe-download-div">
+        <!-- subscription starts -->
+        <div class="subscribe-div">
+          <h1>Subscribe here for exclusive offers and updates!</h1>
+          <form action="" id="subscribe-form">
+            <input
+              type="text"
+              name="name"
+              id="subscribe-name"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="text"
+              name="email"
+              id="subscribe-email"
+              placeholder="Email"
+              required
+            />
+            <br />
+            <p>
+              Don't miss out! enter your email and your name, then hit subscribe
+              to unlock a world of special offers and details.
+            </p>
+            <br />
+            <button class="subscribe-button"><span>Subscribe</span></button>
+          </form>
+        </div>
+        <!-- subscription ends -->
+
+        <!-- download starts -->
+        <div class="download-div">
+          <img src="img/phone.png" alt="" />
+          <form action="" id="download-form">
+            <p>
+              <span
+                >Enter your number and receive <br />a direct link to download
+                the app</span
+              >
+            </p>
+            <input type="text" placeholder="  Enter Phone Number" required />
+            <br /><button class="get-link"><span>Get the link</span></button>
+            <div class="get-in-on">
+              <p><span>Get in on</span></p>
+              <button class="app-store">
+                <img src="img/appleStore.png" alt="" /><span>Apple Store</span>
+              </button>
+              <button class="google-play">
+                <img src="img/gPlay.png" alt="" /><span>Google Play</span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- download ends -->
+      </div>
+      <!-- rent/leash in 3 steps starts-->
+      <div class="rent-leash-div">
+        <h1>Rent/Lease In three easy steps</h1>
+        <div class="step-number">
+          <img src="img/step 1.png" alt="" />
+          <img src="img/step 2.png" alt="" />
+          <img src="img/step 3.png" alt="" />
+        </div>
+        <div class="three-steps">
+          <div class="step1-col">
+            <img src="img/icon-rl location.png" alt="" />
+            <p>
+              Select the location. Browse through our available options and find
+              the perfect car to suit your needs
+            </p>
+          </div>
+          <div class="step2-col">
+            <img src="img/icon-rl calender.png" alt="" />
+            <p>Choose your desired Pick-Up date and time.</p>
+          </div>
+          <div class="step3-col">
+            <img src="img/icon-rl car.png" alt="" />
+            <p>
+              Make payment and book the car. Select an option to either have the
+              car delivered to your location or pick it up directly from us.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- rent/leash in 3 steps ends -->
+
+      <!-- Locations Starts -->
+      <div class="locations-div">
+        <h1>Locations</h1>
+        <div class="place">
+          <span class="material-symbols-outlined"> location_on </span>
+          <p>Dubai</p>
+        </div>
+        <div class="place">
+          <span class="material-symbols-outlined"> location_on </span>
+          <p>Abu Dhabi</p>
+        </div>
+        <div class="place">
+          <span class="material-symbols-outlined"> location_on </span>
+          <p>Sharjah</p>
+        </div>
+        <div class="place">
+          <span class="material-symbols-outlined"> location_on </span>
+          <p>Fujairah</p>
+        </div>
+        <div class="place" id="remove">
+          <span class="material-symbols-outlined"> location_on </span>
+          <p>Ras Al Khaimah</p>
+        </div>
+      </div>
+      <!-- Locations Ends -->
+
+      <!-- FAQ Starts -->
+      <div class="FAQ">
+        <h1>Frequently Asked Questions</h1>
+        <ul>
+          <li>
+            <div class="accordian">
+              <div class="question">
+                What is my eligibility to book a car?
+                <span class="material-symbols-outlined"> close </span>
+              </div>
+              <div class="answer">
+                You should be of 18 years old above and you must possess a valid
+                driving license
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              Can i book for any period of time?<span
+                class="material-symbols-outlined"
+              >
+                add
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              Can i opt car for a longer period?<span
+                class="material-symbols-outlined"
+              >
+                add
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              Can i book one-way trip?<span class="material-symbols-outlined">
+                add
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              Is there home delivery option available?<span
+                class="material-symbols-outlined"
+              >
+                add
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="question">
+              How can i make the payment?<span
+                class="material-symbols-outlined"
+              >
+                add
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- FAQ Ends -->
+    </div>
+    <!-- Main Body Ends -->
+
+    <!-- Footer Starts -->
+    <footer class="footer-class">
+      <div class="footer-content1">
+        <div class="footer-logo1">
+          <img src="/img/footer-logo.png" alt="footer-logo" />
+          <p>
+            <span>Member of the <br />Al Habtoor Group</span>
+          </p>
+        </div>
+
+        <div class="footer-link1">
+          <a href="#">Home</a><a href="#">About Us</a>
+          <a href="#">Services</a>
+        </div>
+
+        <div class="footer-link1">
+          <a href="#">Offers</a>
+          <a href="#">Locations</a><a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-link1">
+          <a href="#">FAQ</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Service Request</a>
+        </div>
+
+        <div class="footer-link1">
+          <a href="#">Career</a><a href="#">Terms & Conditions</a>
+        </div>
+        <div class="follow-us">
+          <p><span>FOLLOW US ON</span></p>
+          <a href="#"><img src="/img/Social Icons.png" alt="" /></a>
+          <a href="#"><img src="/img/Social Icons (1).png" alt="" /></a>
+          <a href="#"><img src="/img/Social Icons (2).png" alt="" /></a>
+          <a href="#"><img src="/img/Social Icons (3).png" alt="" /></a>
+          <a href="#"><img src="/img/Social Icons (4).png" alt="" /></a>
+        </div>
+        <div class="footer-bottom-menu"><span footeror="white">rstduyhfcgjgfhcxg</span></div>
+      </div>
+      <hr />
+      <div class="copyright">
+        <p>© 2018 Car rental LLC - All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
+  </body>
+</html>
+
+<!-- 
+header- text 
+footer- company div
+faq- toggles
+
+-->
