@@ -29,13 +29,13 @@
     <header class="header">
       <div class="navBar">
         <div class="header-social">
-          <a href="#"></a>
-          <a href="#"><img src="/img/ig.jpg" /></a>
-          <a href="#"><img src="/img/x.jpg" /></a>
-          <a href="#"><img src="/img/linkdin.jpg" /></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="img/fb.jpg" /></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="img/ig.jpg" /></a>
+          <a href="https://x.com/?lang=en" target="_blank"><img src="img/x.jpg" /></a>
+          <a href="https://www.linkedin.com/home" target="_blank"><img src="img/linkdin.jpg" /></a>
         </div>
         <div class="logo">
-          <img src="/img/logo.png" />
+          <img src="img/logo.png" />
         </div>
         <div class="main-bar">
           <a href="#">About</a>
@@ -44,15 +44,16 @@
           <a href="#">Personal</a>
           <a href="#">Locations</a>
           <a href="#">Contact Us</a>
-          <a href="#"><img src="/img/bell.jpg" /></a>
-          <a href=""><img src="/img/prof.png" /></a>
+          <a href="#"><img src="img/bell.jpg" /></a>
+          <a href=""><img src="img/prof.png" /></a>
         </div>
       </div>
     </header>
     <!-- Header Ends -->
-
+    
     <!-- Main Body Starts -->
     <div class="main-body">
+      <marquee behavior="scroll" direction="left" scrollamount="4">Sunday Pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand Sales Counters | All Rates inclusive of VAT. T&C’s apply | Follow us on Social Media for New Offers</marquee>
       <!-- Quick Book Starts -->
       <div class="quick-book">
         <div class="quick-book-content">
@@ -62,14 +63,16 @@
             <li><a href="#" id="qb-link3">Select vehicle type</a></li>
           </ul>
           <div class="qb-div2">
-            <button id="btn-location">Al Quoz</button>
-            <button id="btn-date-start">30/10/2023 09:00 AM</button>
-            <button id="btn-date-end">29/11/2023 09:00 AM</button>
-            <button id="btn-search">
-              <span class="material-symbols-outlined" style="color: #e21e26">
-                search
+            <select name="location" id="select-location">
+              <option value="volvo">Al Quoz</option>
+            </select>
+           <input type="datetime-local" id="date-start">
+           <input type="datetime-local" id="date-end">
+           <button id="btn-search">
+             <span class="material-symbols-outlined" style="color: #e21e26">
+               search
               </span>
-            </button>
+            </button>           
             <img src="img/Line.png" alt="" />
             <button id="btn-quick-book">Quick Book</button>
           </div>
@@ -189,7 +192,7 @@
                 the app</span
               >
             </p>
-            <input type="text" placeholder="  Enter Phone Number" required />
+            <input type="tel" placeholder="  Enter Phone Number" required />
             <br /><button class="get-link"><span>Get the link</span></button>
             <div class="get-in-on">
               <p><span>Get in on</span></p>
@@ -264,63 +267,44 @@
       <!-- FAQ Starts -->
       <div class="FAQ">
         <h1>Frequently Asked Questions</h1>
-        <ul>
-          <li>
+
             <div class="accordian">
+              <div class="accordion-content">
               <div class="question">
                 What is my eligibility to book a car?
-                <span class="material-symbols-outlined"> close </span>
               </div>
               <div class="answer">
-                You should be of 18 years old above and you must possess a valid
-                driving license
+               <p> You should be of 18 years old above and you must possess a valid
+                driving license</p>
               </div>
             </div>
-          </li>
-          <li>
+            <div class="accordion-content">
             <div class="question">
-              Can i book for any period of time?<span
-                class="material-symbols-outlined"
-              >
-                add
-              </span>
+              Can i book for any period of time?
             </div>
-          </li>
-          <li>
+          </div>
+            <div class="accordion-content">
             <div class="question">
-              Can i opt car for a longer period?<span
-                class="material-symbols-outlined"
-              >
-                add
-              </span>
+              Can i opt car for a longer period?
+              
             </div>
-          </li>
-          <li>
+          </div>
+            <div class="accordion-content">
             <div class="question">
-              Can i book one-way trip?<span class="material-symbols-outlined">
-                add
-              </span>
+              Can i book one-way trip?
             </div>
-          </li>
-          <li>
+          </div>
+            <div class="accordion-content">
             <div class="question">
-              Is there home delivery option available?<span
-                class="material-symbols-outlined"
-              >
-                add
-              </span>
+              Is there home delivery option available?
             </div>
-          </li>
-          <li>
+          </div>
+            <div class="accordion-content">
             <div class="question">
-              How can i make the payment?<span
-                class="material-symbols-outlined"
-              >
-                add
-              </span>
+              How can i make the payment?
             </div>
-          </li>
-        </ul>
+            </div>
+      </div>
       </div>
       <!-- FAQ Ends -->
     </div>
@@ -330,7 +314,7 @@
     <footer class="footer-class">
       <div class="footer-content1">
         <div class="footer-logo1">
-          <img src="/img/footer-logo.png" alt="footer-logo" />
+          <img src="img/footer-logo.png" alt="footer-logo" />
           <p>
             <span>Member of the <br />Al Habtoor Group</span>
           </p>
@@ -357,13 +341,13 @@
         </div>
         <div class="follow-us">
           <p><span>FOLLOW US ON</span></p>
-          <a href="#"><img src="/img/Social Icons.png" alt="" /></a>
-          <a href="#"><img src="/img/Social Icons (1).png" alt="" /></a>
-          <a href="#"><img src="/img/Social Icons (2).png" alt="" /></a>
-          <a href="#"><img src="/img/Social Icons (3).png" alt="" /></a>
-          <a href="#"><img src="/img/Social Icons (4).png" alt="" /></a>
+          <a href="#"><img src="img/Social Icons.png" alt="" /></a>
+          <a href="#"><img src="img/Social Icons (1).png" alt="" /></a>
+          <a href="#"><img src="img/Social Icons (2).png" alt="" /></a>
+          <a href="#"><img src="img/Social Icons (3).png" alt="" /></a>
+          <a href="#"><img src="img/Social Icons (4).png" alt="" /></a>
         </div>
-        <div class="footer-bottom-menu"><span footeror="white">rstduyhfcgjgfhcxg</span></div>
+        <!-- <div class="footer-bottom-menu"><span footeror="white">rstduyhfcgjgfhcxg</span></div> -->
       </div>
       <hr />
       <div class="copyright">
@@ -373,10 +357,23 @@
     <!-- Footer Ends -->
   </body>
 </html>
+<!-- JS code for FAQ(accordion) -->
+<script>
+  const accordionQuestion = document.querySelectorAll(".question");
 
-<!-- 
-header- text 
-footer- company div
-faq- toggles
+accordionQuestion.forEach(accordionQuestion => {
+  accordionQuestion.addEventListener("click", event => {
+    
 
--->
+    accordionQuestion.classList.toggle("active");
+    const accordionAnswer = accordionQuestion.nextElementSibling;
+    if(accordionQuestion.classList.contains("active")) {
+      accordionAnswer.style.maxHeight = accordionAnswer.scrollHeight + "px";
+    }
+    else {
+      accordionAnswer.style.maxHeight = 0;
+    }
+    
+  });
+});
+  </script>
